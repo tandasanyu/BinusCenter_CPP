@@ -49,5 +49,8 @@ void Lingkaran (){
 void Persegi (){
 	system("cls");
 	int sisi;
-	 printf("\t\t\t\t Menu Persegi \n");
+		printf("\n masukan Angka Anda : \n");
+	printf("Jawab : ");scanf("%d",&sisi);
+	luas = sisi*sisi;
+	 printf("\t\t\t\t Menu Persegi %d \n", luas);
 }
